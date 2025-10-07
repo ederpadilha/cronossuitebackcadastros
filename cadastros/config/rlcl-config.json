@@ -1,0 +1,24 @@
+{
+  "db_oracle": {
+    "user": "RLCL",
+    "password": "senha_rlcl",
+    "connectString": "jdbc:oracle:thin:@localhost:1521:XE"
+  },
+  "schemas": {
+    "rlcl": {
+      "user": "RLCL",
+      "password": "senha_rlcl",
+      "connectString": "jdbc:oracle:thin:@localhost:1521:XE"
+    },
+    "crcr": {
+      "user": "CRCR",
+      "password": "senha_crcr",
+      "connectString": "jdbc:oracle:thin:@localhost:1521:XE"
+    },
+    "crem": {
+      "user": "CREM",
+      "password": "senha_crem",
+      "connectString": "jdbc:oracle:thin:@localhost:1521:XE"
+    }
+  }
+}
