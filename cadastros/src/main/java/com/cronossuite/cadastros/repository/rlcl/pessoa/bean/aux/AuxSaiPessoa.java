@@ -50,8 +50,6 @@ public class AuxSaiPessoa {
         sai.setNumero(tblPessoas.getNumero());
         sai.setAtivo(b.voltaDados(tblPessoas.getAtivo()));
         VwLookpusLinhas look = interLooks.LookLinha(tblPessoas.getCabtipopessoa(), tblPessoas.getLintipopessoa());
-        System.out.println(  "Cabeca: " + tblPessoas.getCabtipopessoa() + " - Linha: " + tblPessoas.getLintipopessoa() +
-                            " - Look: " + (look != null ? look.getNomelinha() : "Nulo"));
         sai.setTipocode(look.getCodelinha());
         sai.setTipo(look.getNomelinha());
         return sai;

@@ -43,7 +43,7 @@ public class OracleJpaConfig {
         Map<String, Object> properties = new HashMap<>();
             properties.put("hibernate.dialect", "org.hibernate.dialect.OracleDialect");
             properties.put("hibernate.enable_lazy_load_no_trans", "true");
-            properties.put("hibernate.show_sql", true);
+            properties.put("hibernate.show_sql", false);
             properties.put("hibernate.format_sql", true);
             properties.put("hibernate.open-in-view", false);
 
