@@ -44,6 +44,9 @@ public class SchemaIdentificationService {
         OBJECT_SCHEMA_MAP.put("TblCabecaLookups", "rlcl");
         OBJECT_SCHEMA_MAP.put("TblLinhaLookups", "rlcl");
         OBJECT_SCHEMA_MAP.put("VwLookpusLinhas", "rlcl");
+        OBJECT_SCHEMA_MAP.put("TblEmpresa", "rlcl");
+        OBJECT_SCHEMA_MAP.put("VW_UserEmpresa", "rlcl");
+        OBJECT_SCHEMA_MAP.put("TblUsers", "rlcl");
         
     //    OBJECT_SCHEMA_MAP.put("TblCronosConfig", "crcr");
     //    OBJECT_SCHEMA_MAP.put("TblCronosUsuarios", "crcr");

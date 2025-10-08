@@ -25,6 +25,8 @@ import jakarta.persistence.EntityManagerFactory;
     basePackages = {
         "com.cronossuite.cadastros.repository.jpa.pessoa",
         "com.cronossuite.cadastros.repository.rlcl.pessoa.jpa",
+        "com.cronossuite.cadastros.repository.rlcl.empresa.jpa",
+        "com.cronossuite.cadastros.repository.rlcl.usuario.jpa",
         "com.cronossuite.cadastros.repository.rlcl.util.jpa",
         "com.cronossuite.cadastros.repository.crcr.**.jpa",
         "com.cronossuite.cadastros.repository.crem.**.jpa"

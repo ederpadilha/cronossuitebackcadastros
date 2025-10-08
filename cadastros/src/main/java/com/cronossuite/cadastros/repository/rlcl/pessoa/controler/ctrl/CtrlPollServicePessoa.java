@@ -31,7 +31,7 @@ public class CtrlPollServicePessoa implements PollServicePessoa{
 
     
 
-    private AuxControler auxCtr = new AuxControler();
+    private final AuxControler auxCtr = new AuxControler();
 
     private ResponseEntity<Object> getResposta(Object ob) {
         return auxCtr.getResposta(ob);

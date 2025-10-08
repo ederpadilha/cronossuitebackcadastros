@@ -22,7 +22,7 @@ public class VwLookpusLinhas implements Serializable  {
     @Column(name = "id___utlom")
     private Long id ;
     @Column(name = "ID___UTLOK")
-    private Long idcabeca ;
+    private Long idcabeca ; 
     @Column(name = "CODE_UTLOK")
     private String codecabeca ;
     @Column(name = "NOME_UTLOK")

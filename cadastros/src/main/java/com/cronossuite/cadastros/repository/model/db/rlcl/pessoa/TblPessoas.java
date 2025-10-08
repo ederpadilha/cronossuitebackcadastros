@@ -25,12 +25,12 @@ import lombok.Setter;
 public class TblPessoas implements Serializable  {
     private static final long serialVersionUID = 1L;
     @Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ_PK_RLCLUSERS")
-    @SequenceGenerator(sequenceName = "SEQ_PK_RLCLUSERS", allocationSize = 1, name = "SEQ_PK_RLCLUSERS")
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ_PK_RLCLPESSO")
+    @SequenceGenerator(sequenceName = "SEQ_PK_RLCLPESSO", allocationSize = 1, name = "SEQ_PK_RLCLPESSO")
 	@Column(name = "ID___PESSO")
     private Long id ; 
     @Column(name = "CODI_PESSO")
-    private String codigo; 
+    private String codigo;  
     @Column(name = "NOME_PESSO")
     private String nome; 
     @Column(name = "NUME_PESSO")

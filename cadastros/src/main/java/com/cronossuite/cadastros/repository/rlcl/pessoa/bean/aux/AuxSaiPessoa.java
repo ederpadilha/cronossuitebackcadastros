@@ -20,9 +20,7 @@ import com.cronossuite.cadastros.utilis.U_bolleans;
 @Component
 public class AuxSaiPessoa {
 
-    public AuxSaiPessoa() {
-        init();
-    }
+   
     
     @Autowired
     JpaTblPessoas jpaTblPessoas;
@@ -31,9 +29,7 @@ public class AuxSaiPessoa {
     
     String stringTipoPessoa = eLookPessoaCode.TIPO_PESSOA.Chave;
 
-    private void init(){
-       
-    }
+ 
 
     @Autowired
     SchemaIdentificationService schemaIdentificationService;
@@ -72,7 +68,7 @@ public class AuxSaiPessoa {
             tbl.setLintipopessoa(look.getId());
         }
         return tbl;
-    }
+    }  
 
     public SaiPessoa Salvar( String tipo , SaiPessoa pessoa , String id) {
        // Define automaticamente o schema baseado na entidade
